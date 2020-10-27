@@ -1,5 +1,6 @@
 package com.company;
 import java.util.Scanner;
+import com.company.Option1;
 
 public class Main {
 
@@ -64,22 +65,43 @@ public class Main {
              switch (options) {
                  case 1 -> {
                      System.out.println("have you selected option 1");
+
                  }
-                 case 2 -> System.out.println("have you selected option 2");
-                 case 3 -> System.out.println("have you selected option 3");
-                 case 4 -> System.out.println("have you selected option 4");
-                 case 5 -> System.out.println("have you selected option 5");
-                 case 6 -> System.out.println("have you selected option 6");
-                 case 7 -> System.out.println("have you selected option 7");
-                 case 8 -> System.out.println("have you selected option 8");
-                 case 9 -> System.out.println("have you selected option 9");
-                 case 10 -> System.out.println("have you selected option 10");
-                 case 11 -> System.out.println("have you selected option 11");
+                 case 2 -> { System.out.println("have you selected option 2");
+
+                 }
+                 case 3 -> {System.out.println("have you selected option 3");
+
+                 }
+                 case 4 -> {System.out.println("have you selected option 4");
+
+                 }
+                 case 5 -> {System.out.println("have you selected option 5");
+
+                 }
+                 case 6 -> {System.out.println("have you selected option 6");
+
+                 }
+                 case 7 -> {System.out.println("have you selected option 7");
+
+                 }
+                 case 8 -> {System.out.println("have you selected option 8");
+
+                 }
+                 case 9 -> {System.out.println("have you selected option 9");
+
+                 }
+                 case 10 -> {System.out.println("have you selected option 10");
+
+                 }
+                 case 11 -> {System.out.println("have you selected option 11");
+
+                 }
                  case 12 -> {
                      System.out.println("Good bye");
                      exit = true;
                  }
-                 default -> System.out.println("oh oh, that’s not fair");
+                 default -> System.out.println("oh oh, that is not fair");
              }
         }
     }
