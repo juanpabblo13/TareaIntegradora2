@@ -1,12 +1,17 @@
-package com.company;
+package model;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Option1 {
-    public String name;
-    public String password;
-    public int age;
-    public String category;
+public class Option1{
+
+
+    private String name;
+    private String password;
+    private int age;
+    private String category;
+
+
     public Option1(String name, String password, int age, String category){
         this.name = name;
         this.password = password;
@@ -14,13 +19,14 @@ public class Option1 {
         this.category = category;
     }
 
+
     public Option1(String name) {
     }
+
 
     public String getName() {
             return name;
         }
-
         public void setName (String name){
             this.name = name;
         }
@@ -35,7 +41,6 @@ public class Option1 {
         public int getAge(){
          return age;
         }
-
         public void setAge(int age) {
         this.age = age;
         }
@@ -43,7 +48,6 @@ public class Option1 {
     public String getCategory() {
         return category;
     }
-
     public void setCategory(String category) {
         this.category = category;
     }

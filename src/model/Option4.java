@@ -1,4 +1,4 @@
-package com.company;
+package model;
 
 public class Option4 {
 }
