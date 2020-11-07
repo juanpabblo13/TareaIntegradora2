@@ -12,15 +12,12 @@ public class Option1{
     private String category;
 
 
-    public Option1(String name, String password, int age, String category){
+
+    public Option1() {
         this.name = name;
         this.password = password;
         this.age = age;
         this.category = category;
-    }
-
-
-    public Option1(String name) {
     }
 
 
@@ -63,7 +60,7 @@ public class Option1{
         int age = input.nextInt();
         System.out.println("Enter the category");
         String category = input.next();
-        Option1 modul = new Option1(name, password, age, category);
+        Option1 modul = new Option1();
         ArrayList<Option1> ListOptions = new ArrayList<Option1>();
         ListOptions.add(modul);
     }
