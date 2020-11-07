@@ -13,14 +13,17 @@ public class Option1{
 
 
 
-    public Option1() {
+    public Option1(String name, String password, int age, String category) {
         this.name = name;
         this.password = password;
         this.age = age;
         this.category = category;
     }
 
-
+    /**
+     * name=Name
+     * @return
+     */
     public String getName() {
             return name;
         }
@@ -28,6 +31,10 @@ public class Option1{
             this.name = name;
         }
 
+    /**
+     * name= Password
+     * @return
+     */
         public String getPassword(){
         return password;
     }
@@ -49,9 +56,12 @@ public class Option1{
         this.category = category;
     }
 
-
+    /**
+     * name=user
+     * it is the method of create a user
+     */
     public void User() {
-        Scanner input =new Scanner (System.in);
+        Scanner input = new Scanner (System.in);
         System.out.println("Enter the name");
         String name = input.next();
         System.out.println("Enter the password");
@@ -60,7 +70,7 @@ public class Option1{
         int age = input.nextInt();
         System.out.println("Enter the category");
         String category = input.next();
-        Option1 modul = new Option1();
+        Option1 modul = new Option1(name, password, age, category);
         ArrayList<Option1> ListOptions = new ArrayList<Option1>();
         ListOptions.add(modul);
     }

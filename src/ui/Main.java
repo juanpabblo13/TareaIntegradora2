@@ -1,11 +1,10 @@
 package ui;
-import model.*;
-
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+
 
         Scanner sc = new Scanner(System.in);
         System.out.println(
@@ -68,47 +67,36 @@ public class Main {
             switch (options) {
                 case 1 -> {
                     System.out.println("have you selected option 1");
-                    new Option1();
                 }
                 case 2 -> {
                     System.out.println("have you selected option 2");
-                    new Option2();
                 }
                 case 3 -> {
                     System.out.println("have you selected option 3");
-                    new Option3();
                 }
                 case 4 -> {
                     System.out.println("have you selected option 4");
-                    new Option4();
                 }
                 case 5 -> {
                     System.out.println("have you selected option 5");
-                    new Option5();
                 }
                 case 6 -> {
                     System.out.println("have you selected option 6");
-                    new Option6();
                 }
                 case 7 -> {
                     System.out.println("have you selected option 7");
-                    new Option7();
                 }
                 case 8 -> {
                     System.out.println("have you selected option 8");
-                    new Option8();
                 }
                 case 9 -> {
                     System.out.println("have you selected option 9");
-                    new Option9();
                 }
                 case 10 -> {
                     System.out.println("have you selected option 10");
-                    new Option10();
                 }
                 case 11 -> {
                     System.out.println("have you selected option 11");
-                    new Option11();
                 }
                 case 12 -> {
                     System.out.println("Good bye");
